@@ -19,23 +19,22 @@ It compares the performance of **Logistic Regression, Gradient Boosting, and Nai
 ```
 FakeNewsDetection-App/
 │── app.py                  # Streamlit app
-│── model_training.py       # Training script
+│── model_training.ipynb       # Training script
 │── best_model.pkl          # Saved ML model
 │── tfidf_vectorizer.pkl    # Saved vectorizer
 │── requirements.txt        # Dependencies
 │── README.md               # Project description
-│── data/                   # Dataset (if included)
-│── images/                 # Wordclouds & screenshots
+│── data/                   # Dataset
 ```
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/FakeNewsDetection-App.git
-cd FakeNewsDetection-App
+git clone https://github.com/MehakArifDarwaish/FakeNewsDetection-App.git
+cd FakeNewsDetection-Ap
 ```
 
 Install dependencies:
@@ -56,7 +55,7 @@ Then open the link shown in terminal (usually `http://localhost:8501`) in your b
 
 ---
 
-## 📊 Models Used
+##  Models Used
 - **Logistic Regression**
 - **Gradient Boosting**
 - **Naive Bayes**
@@ -69,9 +68,9 @@ Training and validation loss are visualized to compare model performance.
 
 | Model               | Accuracy | Precision | Recall | F1-Score |
 |----------------------|----------|-----------|--------|----------|
-| Logistic Regression  | 0.92     | 0.91      | 0.93   | 0.92     |
-| Gradient Boosting    | 0.95     | 0.94      | 0.96   | 0.95     |
-| Naive Bayes          | 0.89     | 0.88      | 0.90   | 0.89     |
+| Logistic Regression  | 0.98     | 0.91      | 0.93   | 0.92     |
+| Gradient Boosting    | 0.99     | 0.94      | 0.96   | 0.95     |
+| Naive Bayes          | 0.93     | 0.88      | 0.90   | 0.89     |
 
 
 ---
